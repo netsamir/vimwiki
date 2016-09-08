@@ -1,0 +1,10 @@
+= Django =
+* [[Commands]] -- a set a quick commands to start my project
+ 
+= Hacking =
+* [[Components]]
+* [[Wep attacks]] 
+* [[Deauthentication attack]]
+
+= Health =
+* [[Day J]]

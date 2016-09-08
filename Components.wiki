@@ -1,0 +1,68 @@
+Some devices will be necessary to fully be able to hack.
+
+* [[Drivers]] on Linux : 802.11 stack -> mac80211 is the winner of the race in linux
+world.
+
+= Card =
+Recommended Cards : Alfa AWUS052NH, AWUS051NH v2
+
+What is important when buying the card is the chipset and it uses the driver.
+
+== Driver's Features? ==
+- Monitor mode
+- Packet injection
+
+== Packet injection ==
+Aircrack-ng uses osdep library.
+
+== What chipset ? ==
+The author proposes the following:
+- Ralink (RT2X00) : It has USB support
+- Realtek (R8187)
+- Atheros (AR5XXX, AR9XXX)
+- Intel Pro Wireless (iwlwifi)
+
+For exemple, my chipset for the moment does not support 802.11ac.
+
+== Transmit Power (TX) ==
+Transmiting - Milliwatts(mW) or dBm.  Atheros-based cards like the Alfa AWUS306H holds raw TX
+power medal: 1000mW (30dBm).
+
+== Sensitivity ==
+Receiving - bBm relative to 1 mW. The more the negative the better.
+
+== Antenna Support ==
+
+== Ressources ==
+https://www.fcc.gov/general/fcc-id-search-page
+http://linuxwireless.org/en/users/Devices/
+= Antennas =
+Magnetic-mount and base-stations
+
+== Omnidirectional ==
+CSL - 12 dBi - less expensive
+TP-Link
+Base-stations is enough for me, Magnetic-mount is to put on top of my car roof.
+
+== Bidirectional ==
+16dBi 2.4GHz Yagi antenne
+TP-LINK 2.4GHz 24dBi Grid Parabolic Antenna
+
+= RF Amplifiers =
+Not for the moment
+
+= Cellular Data Cards =
+Globalsat Bu 353s4 Usb Récepteur GPS
+
+= What to buy ? =
+I am have to by the following component:
+
+- An SD Card so that I could install all the software in my BeagleBone
+- The pineable router
+- A new wifi that is fully compatible
+- A few usb sticks
+
+Time to be aware of the stuff I reall need
+
+
+

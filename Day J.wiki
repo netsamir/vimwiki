@@ -1,0 +1,336 @@
+= Goal =
+    Age              : 40 years
+    Heigh            : 175 cm
+
+== Present ==
+    Date             : 14 Jun 2016
+    Weight           : 80.6 kg
+    Waist            : 96.5 cm
+    Ratio W/H        : 55.14%
+    Body Fat         : 18%
+
+== Objectif ==
+    Date             : 19 Sept 2016
+    Weight           : 75kg
+    Waist (175*0.45) : 78.75cm
+    Ratio W/H        : 45%
+    Body fat         : 10%
+
+    Note - loose 500g per week.
+
+= Some Theory on training =
+Based on Eric Helms.
+http://muscleandstrengthpyramids.com/training-videos/
+Muscle and Strength Training Pyramid.
+
+It will include discussion on strength and hypertrophy.
+
+1) Tempo
+2) Rest Periods
+3) Exercice Selection
+4) Progression
+5) Volume Intensity Frequency
+6) Adherence
+
+Periodization is used to manage all these things.
+
+== VIF ==
+Volume           : Intensity * Reps * Frequency
+Intensity (load) : Weight
+Frequency        : Training per week
+
+Increase the intensity of the program will affect the capacity to recover.
+And the volume might come down. Or increase the frequency to accomodate a
+higher volume program.
+
+Specificity: To get a certain outcome in training, you need to train for it.
+Strength is a skill based on the Neuronal System mainly based on the Velocity,
+the Intensity and the mouvement pattern you will execute.
+
+Less specificity is needed for hypertrophy. Experiment, 2 groups with the same
+volume but different intensity, one group with 3 reps max, the other group with
+10 reps max. They got the same amount of muscle growth. This show that specificity
+for hypertrophy has a broad range. However, the 3 reps max group get stronger
+than the 10 reps group. This means that if you want to get stronger you have to
+lift heavier, but the muscle growth is based on the quality of the body.
+
+As a result,
+    - specificity for strength: developping Neuronal System and skill;
+    - hypertrophy: loading the muscle on a progressive way.
+
+In the longterme, we need to get stronger.
+10 weeks training.
+
+Hypertrophy:
+Effective rep
+Percentage of a one rep max, five, three rep max
+RPE
+
+
+== Volume ==
+Total work perform.
+- Skill acquisition
+- Neurologic adaptation
+- Hypertrophy
+
+Fatigue management.
+
+35 - 90 reps per week per body part (overlap included)
+Depending the intensity
+
+Conclusion: 40 to 70 reps/bodypart, for strength it will be 3/4.
+
+== Frequency ==
+Organise volume and intensity.
+Each body part or mvm pattern, 2 to 3 time per week.
+
+Consider overlap and make it moderate if necessary.
+
+== Intensity ==
+1 to 15 reps max,   for strength, 6 or lower at 3/4.
+                    for hypertrophy, above 6.
+
+== Recommendation ==
+Recommendation Hypertrophy:
+3/4 of volume - 6 to 12 range rep
+1/4 of volume - 12 to 20 range rep
+
+Recommendation Strengh:
+3/4 - 1 to 6
+1/4 - higher range
+
+
+40 to 70 reps, strength 1 to 6 RM: 3/4, 7+RM 1/4, 2 or 3 times a week, per body
+part.
+
+Example Strength (40):
+Mon: Bench 5*5, Overhead Press 3*6, Row 3*8-12
+Tue: Squat/Deadlift 5*5, Roumainian Deadlift/Front Squat 3*6
+Thu: Bench 5*3, Falt dumbel bell 4*6, Chins 3*8-12
+Fri: Deadlift/Squat, Front Squats/Roumainian Deadlift 4*6
+
+Example Hypertrophy (50-70):
+Mon: Bench 4*4-6, Row 3*6-8,
+    Incline dumbel, triceps, biceps, Lat. raises 3*8-12
+Tue: Squat/Deadlift 4*4-6, Leg ext, Leg curl 3*8-12,
+    Standing calf 4*6-8
+Thu: Falt dumbel bell, Lat pull down, Row Chins 3*8-12,
+    Chest Flys, Triceps, Biceps 2*12-15
+Fri: Leg Press, RDL 3*8-12, Leg ext, Leg Curls, 3*12-15,
+    Standing Calf 4*8-12
+
+=== Progression ===
+Example for intermediate (linear periodization):
+week 1: 100 * 8 * 3
+week 2: 105 * 7 * 3
+week 3: 110 * 6 * 3
+week 4: 100 * 6 * 2
+week 5: 105 * 8 * 3
+
+Example for intermediate Isolqtion 3*12-15 or 8-12:
+week 1: 20 * 14, 13, 12
+week 2: 20 * 14, 14, 12
+week 3: 20 * 14, 14, 13
+week 4: 20 * 12, 12
+week 5: 20 * 15, 15, 14
+week 6: 20 * 15, 15, 15
+week 7: 25
+
+Example for advanced on compound mouvement:
+Note that with AMRAP (As Much Rep As Possible) - it is possible to derive 1RM
+1RM
+
+=== Periodization models ===
+Block (Hypertrophy oriented)
+Accumulation - 6 weeks: Build from 40 to 70 reps, 3x/weeks
+Intensify - 4 weeks: 40 to 50 reps, 2x/weeks (Close to failure)
+Realise - 1 week: 40 reps, 2x/week and 1 week 1 RM and accesories.
+
+DUP (Strength)
+on|off
+Bench every session
+Alternate Squat/DL
+Rotate each lift through:
+    6-12 nearing failure
+    1-3 at 75%-85%
+    1-6 1M or ARMAD
+Every 4 weeks and 1 week light.
+
+Taper (Realisation)
+Allow fatigue to go down.
+1-2 weeks, 33-66% of normal volume, 0-10% reduction in Intensity
+can be combined with 1-3 days off
+
+=== Exercice Selection ===
+
+=== Rest Periods ===
+Take your rest or do super set of the antagonist (not full body mouvement like
+squat or deadlift).
+
+=== Tempo ===
+load velocity - the load determine the load.
+Extentric - less energy, controling the load, stronger
+Concentric
+Impulse
+Force: mass * acceleration
+
+Hypertrophy: Make sure you are in control
+Strength: in control too but not that strict.
+
+Le point faible c'est le mouvement concentric (car on est
+moins fort qu'en exentric) donc le mouvement exentric sera limite par le poids
+qu'on peut prendre en concentric, et donc on ne peut pas profiter du travail
+exentric car le poid sera trop leger (car il y a des etudes qui montre qu'en
+exentric tu as un plus gros volume car tu peux prendre plus lourd.  Mais les
+etudes en laboratoire isole la partie extentric ce qui n'est pas possible en
+salle ou on est oblige de lever soi meme le poid en concentric). Et en fait
+ralentir le poid a pour but de simuler ce qui est fait en laboratoire pour
+jouer sur le mouvement exentric mais le poid est trop leger donc ca na pas
+d'interet.
+
+Deplus, il dit aussi que l'autre argument c'est time under tension.
+car il faut tenir de la magnitude car pour lui la force c'est la tension et
+force = masse * acceleration (comme un sprinter) (different de power),
+impulse = force * time et en fait un extentric mouvement lent va fatigue et
+empecher le volume total.
+
+= IMG =
+    Determine your body fat with the method from Raud Antoniu:
+        1) Visual appearance;
+        2) Waist measurement;
+        3) Relative Strength;
+
+= Macros =
+== BMR ==
+    Base metabolic to allow life/day.
+
+    HBE: 66+(13.75x82)+(5*175)-(6.76*40) = 1798 Cal.
+    MSJ: (10*82)+(6.25*175)-(5*40)+5     = 1718 Cal.
+
+== Maintenance ==
+    Maintenance     : 177.7 (80.7kg) * 15 = 2665 Cal.
+    Calorie deficit : 177.7 * 12          = 2132 Cal.
+
+== Target ==
+    Calculation is done with the application MyFitness-Pal
+
+=== Kinobody  ===
+    Protein (30%)     : 2130 * 0.3        = 640 Cal. (/4 or 160g)
+    Fat (30%)         : 2130 * 0.3        = 640 Cal. (/9 or 70g)
+    Carb (40%)        : 2130 * 0.4        = 855 Cal. (/4 or 215g)
+
+    | Meal         | Cal. | Prot. (g) | Fat (g) | Carb. (g) |
+    |--------------|------|-----------|---------|-----------|
+    | Break  (26%) | 560  |           |         |           |
+    | Lunch  (36%) | 770  |           |         |           |
+    | Dinner (28%) | 600  |           |         |           |
+    | Snacks (10%) | 200  |           |         |           |
+
+    Note: I split the macro thanks to my application.
+
+= Stats =
+    | Date     | Weight | Waist | Cal.  | Carbs | Fat | Prot. | Sugar |
+    |----------|--------|-------|-------|-------|-----|-------|-------|
+    | 20160619 | 80.7   | 96.5  | 2,135 | 163   | 79  | 185   | 44    |
+    | 20160620 | 80.3   |       | 2,155 | 196   | 73  | 179   | 63    |
+    | 20160621 | 80.6   | 95    | 2,138 | 178   | 73  | 190   | 52    |
+    | 20160622 | 80.4   | 94    | 2,161 | 198   | 57  | 209   | 39    |
+    | 20160623 | 80.4   | 93    | 2,107 | 221   | 62  | 168   | 67    |
+    | 20160624 | 80.2   | 93    | 2,178 | 218   | 72  | 171   | 62    |
+    | 20160625 | 80.5   | 92.3  | 2,126 | 202   | 71  | 170   | 56    |
+    | 20160626 | 80.9   | 92    | 2,144 | 195   | 83  | 195   | 71    |
+    | 20160627 | 81     | 91    | 2,289 | 207   | 67  | 184   | 64    |
+    | 20160628 | 80.9   | 91    | 2,258 | 227   | 70  | 183   | 38    |
+    | 20160629 | 80.2   | 91.5  | 1,971 | 198   | 52  | 177   | 49    |
+    | 20160630 | 80.7   | 91.5  | 2,248 | 300   | 43  | 157   | 67    |
+    | 20160701 | 81.3   | 91.3  | 2,094 | 217   | 53  | 184   | 84    |
+    | 20160702 | 81     | 90.5  | 2,059 | 171   | 70  | 186   | 60    |
+    | 20160703 | 80.7   | 90.7  | 2,191 | 214   | 66  | 179   | 60    |
+    | 20160704 | 80.7   | 91.3  |       |       |     |       |       |
+    | 20160705 |        |       | 2,100 | 212   | 63  | 164   | 56    |
+    | 20160706 | 79.7   | 91    | 2,086 | 195   | 65  | 174   | 52    |
+    | 20160707 | 80.3   | 90.6  | 2,072 | 227   | 53  | 166   | 51    |
+    | 20160708 | 80.6   | 91    |       |       |     |       |       |
+
+
+Note:
+20160701 - Set new goals
+As I am stalling, I have reviewed my goals.
+Maintenance (calculate with myfitnesspal): 2,760 cal
+    Minus 25% : 2070 cal.
+    Carbs.    : 38% - 196g
+    Fat       : 22% -  63g
+    Pro.      : 35% - 180g
+
+= Workout =
+    | # | Chest and Triceps   | Abr. | Warrior      | Greek God      | Super-Hero    |
+    |---|---------------------|------|--------------|----------------|---------------|
+    | 1 | Rear Delt Flyes     | RDF  |              |                |               |
+    | 2 | Incline Bench Press | IBP  | 5*88kg (1.1) | 5*100kg (1.25) | 5*112kg (1.4) |
+    | 3 | Flat Bench Press    | FBP  |              |                |               |
+    | 4 | Skull Crushers      | SC   |              |                |               |
+    | 5 | Abs Wheel Roll outs | AWR  |              |                |               |
+
+
+    | # | Shoulders and Back     | Abr. | Warrior       | Greek God     | Super-Hero    |
+    |---|------------------------|------|---------------|---------------|---------------|
+    | 1 | Weighted Chin-ups      | WCU  | 5*+24kg (30%) | 5*+40kg (50%) | 5*+56kg (70%) |
+    | 2 | Standing Barbell Press | SBP  | 5*56kg (70%)  | 5*68kg (85%)  | 5*80kg (BW)   |
+    | 3 | Seated Cable Rows      | SCR  |               |               |               |
+    | 4 | Lateral Raises         | LR   |               |               |               |
+    | 5 | Hanging Leg Raises     | HLR  |               |               |               |
+
+
+    | # | Lowerbody and Biceps | Abr. | Warrior      | Greek God    | Super-Hero   |
+    |---|----------------------|------|--------------|--------------|--------------|
+    | 1 | Single Leg Squats    | SLS  |              |              |              |
+    | 2 | Squats               | S    |              |              |              |
+    | 3 | Romanian Deadlifts   | RD   |              |              |              |
+    | 4 | Standing Calf Raises | SCfR |              |              |              |
+    | 5 | Barbell Curls        | BC   | 5*44kg (55%) | 5*52kg (65%) | 5*60kg (75%) |
+    | 6 | Hammer Curls         | HC   |              |              |              |
+
+
+    | Date     | WCU    | SBP     | SCR   | LR    | HLR | SLS | S        | RD       | SCfR | BC      | HC | RDF | IBP       | FBP     | SC | AWR | Free                            |
+    |----------|--------|---------|-------|-------|-----|-----|----------|----------|------|---------|----|-----|-----------|---------|----|-----|---------------------------------|
+    | 20160617 |        | 35k*5*5 |       |       |     |     |          | 80k*5*5  |      |         |    |     | 50k*5*5   | 70k*5*5 |    |     |                                 |
+    | 20160619 |        |         |       |       |     |     | 105k*5*5 |          |      | 35k*5*5 |    |     |           |         |    |     |                                 |
+    | 20160620 | 93k*5  | 45k*5   | 66k*8 | 7k*10 | *10 |     |          |          |      |         |    |     |           |         |    |     |                                 |
+    |          | 86k*6  | 40k*6   | 66k*8 | 7k*10 | *10 |     |          |          |      |         |    |     |           |         |    |     |                                 |
+    |          | 79k*8  | 40k*8   | 66k*8 | 7k*10 |     |     |          |          |      |         |    |     |           |         |    |     |                                 |
+    | 20160621 |        |         |       |       |     |     |          |          |      |         |    |     |           |         |    |     | Taekwondo                       |
+    | 20160622 |        |         |       |       |     |     |          |          |      |         |    |     |           |         |    |     | Trx & Kettel Functional Pattern |
+    | 20160623 |        |         |       |       |     |     |          |          |      |         |    |     |           |         |    |     | Abd & mobility                  |
+    | 20160624 |        | 50k*3   |       |       |     |     |          |          |      |         |    |     |           | 70k*5   |    |     |                                 |
+    |          |        | 50k*2   |       |       |     |     |          |          |      |         |    |     |           | 75k*5*3 |    |     |                                 |
+    |          |        | 45k*5*3 |       |       |     |     |          |          |      |         |    |     |           | 77.5k*5 |    |     |                                 |
+    | 20160625 | 5*+15k |         | 73k*5 |       |     |     |          |          |      | 30k*3   |    |     | 60k*6*3   |         |    |     | Overhead squat: 30k*3           |
+    |          |        |         | 66k*7 |       |     |     |          |          |      |         |    |     |           |         |    |     |                                 |
+    |          |        |         | 59k*8 |       |     |     |          |          |      |         |    |     |           |         |    |     |                                 |
+    | 20160626 |        |         |       |       |     |     |          |          |      |         |    |     |           |         |    |     | Abs                             |
+    | 20160627 |        |         |       |       |     |     | 110k*5*4 | 100k*6   |      |         |    |     |           |         |    |     |                                 |
+    |          |        |         |       |       |     |     | 110k*8   | 105k*8   |      |         |    |     |           |         |    |     |                                 |
+    | 20160628 |        |         |       |       |     |     |          |          |      |         |    |     |           |         |    |     | Taekwondo                       |
+    | 20160629 |        |         |       |       |     |     |          |          |      |         |    |     |           |         |    |     | Cross-fit                       |
+    | 20160630 |        | 50k*3*3 |       |       |     |     |          |          |      |         |    |     | 62.5k*5*5 | 80k*4   |    |     |                                 |
+    |          |        |         |       |       |     |     |          |          |      |         |    |     |           | 77.5k*5 |    |     |                                 |
+    |          |        |         |       |       |     |     |          |          |      |         |    |     |           | 75k*6   |    |     |                                 |
+    |          |        |         |       |       |     |     |          |          |      |         |    |     |           | 70k*8   |    |     |                                 |
+    |          |        |         |       |       |     |     |          |          |      |         |    |     |           |         |    |     | Cross-fit                       |
+    | 20160701 |        |         |       |       |     |     |          |          |      |         |    |     |           |         |    |     | Overhead squat: hasta 35k*8     |
+    | 20160702 |        |         |       |       |     |     | 115k*5*5 | 100k*5*2 |      |         |    |     |           |         |    |     | Metabolic conditioning          |
+    | 20160703 |        |         |       |       |     |     |          |          |      |         |    |     |           |         |    |     | Abs                             |
+    | 20160704 |        |         |       |       |     |     |          |          |      |         |    |     | 67.5k*8   |         |    |     |                                 |
+    | 20160705 |        |         |       |       |     |     |          |          |      |         |    |     | 70k*5     |         |    |     | Taekwondo                       |
+    | 20160706 |        |         |       |       |     |     |          |          |      |         |    |     | 67.5k*8   |         |    |     | Cross-fig - Deadlift            |
+    |          |        |         |       |       |     |     |          |          |      |         |    |     |           |         |    |     |                                 |>
+    Incline 67.5 8/70 5/67.5 6
+    Row bar 60 7
+    Chin 15, 13,75, 12 reg
+    Up shoulders 50, 45, 40*9
+    Bench 80 *5, 70, 62,5
+    Row bar 40*3
+    Dips 10*10*2,15*7
+    Biceps 16 18 20*4
+    
+    |          |        |         |       |       |     |     | 110k*5*3         |          |      |         |    |     |           |         |    |     |                                 |>

